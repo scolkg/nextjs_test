@@ -19,7 +19,7 @@ type TopicType = {
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const resp = await fetch(`${process.env.NEXT_PUBLIC_API_URL}topics`, { cache: "no-cache" });
   const topics = await resp.json();
-  // console.log("page/layout.tsx/topics", topics);
+  console.log("page/layout.tsx/topics", topics);
 
   return (
     <html>
