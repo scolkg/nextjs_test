@@ -1,0 +1,31 @@
+{
+  "topics": [
+    {
+      "title": "첫빠다",
+      "body": "첫빠\n따\n\nㅋㅋ",
+      "id": 1
+    },
+    {
+      "title": "둘리~둘리",
+      "body": "고고고",
+      "id": 2
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
